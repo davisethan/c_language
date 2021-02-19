@@ -1,0 +1,58 @@
+Ex 1 Dusting Off That Compiler
+    $ make ex1
+    $ ./ex1
+
+Ex 2 Using Makefiles to Build
+    $ make clean
+    $ make ex1
+
+Ex 5 Memorizing C Operators
+    Data Operators
+        sizeof(): Get size of
+        []: Array subscript
+        &: Address of
+        *: Value of
+        ->: Structure dereference
+        .: Structure reference
+
+Ex 6 Memorizing C Syntax
+    Keywords
+        auto: Give local variable local lifetime
+        break: Exit compound statement
+        case: Branch in switch-statement
+        char: Character data type
+        const: Make variable unmodifiable
+        continue: Continue to top of loop
+        default: Default branch in switch-statement
+        do: Start do-while loop
+        double: Double floating-point data type
+        else: Else branch in if-statement
+        enum: Define set of integer constants
+        extern: Declare identifier is defined externally
+        float: Floating-point data type
+        for: Start for-loop
+        goto: Jump to label
+        if: Start if-statement
+        int: Integer data type
+        long: Long integer data type
+        register: Declare variable be stored in CPU register
+        return: Return from function
+        short: Short integer data type
+        signed: Signed modifier for integer data types
+        sizeof: Find size of data
+        static: Keep variable value after scope exit
+        struct: Combine variables into single record
+        switch: Start switch-statement
+        typedef: Create new type
+        union: Start union-statement
+        unsigned: Unsigned modifier for integer data types
+        void: Declare data type empty
+        volatile: Declare var might be modified elsewhere
+        while: Start while-loop
+
+Ex 8 If, Else-If, Else
+    $ make ex8
+    $ ./ex8
+    $ ./ex8 one
+    $ ./ex8 one two
+    $ ./ex8 one two three

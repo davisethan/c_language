@@ -1,7 +1,0 @@
-Ex 1
-    $ make ex1
-    $ ./ex1
-
-Ex 2
-    $ make clean
-    $ make ex1

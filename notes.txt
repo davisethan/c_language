@@ -56,3 +56,9 @@ Ex 8 If, Else-If, Else
     $ ./ex8 one
     $ ./ex8 one two
     $ ./ex8 one two three
+
+    - True is 1, false is 0. C doesn't have boolean data type
+
+Ex 11 Arrays and String
+    - Arrays and strings are the same to C
+    - Use char * way to create strings, e.g. char *str = "C";

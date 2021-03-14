@@ -62,3 +62,13 @@ Ex 8 If, Else-If, Else
 Ex 11 Arrays and String
     - Arrays and strings are the same to C
     - Use char * way to create strings, e.g. char *str = "C";
+
+Ex 15 Pointers, Dreaded Pointers
+    - E.g. int ages[] = {13, 15, 17}, C thinks ages is a memory address to first array element
+    - Pointer is address pointing to somewhere in memory with type specified to get right size data
+    - type *ptr: Pointer of type named ptr
+    - *ptr: Value of what ptr points at
+    - *(ptr + i): Value of what ptr points at plus i
+    - &thing: Address of thing
+    - type *ptr = &thing: Pointer of type named ptr set to address of thing
+    - ptr++: Increment ptr pointer

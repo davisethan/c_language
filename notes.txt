@@ -72,3 +72,9 @@ Ex 15 Pointers, Dreaded Pointers
     - &thing: Address of thing
     - type *ptr = &thing: Pointer of type named ptr set to address of thing
     - ptr++: Increment ptr pointer
+
+Ex 17 Heap and Stack Memory Allocation
+    - C standard library file operations
+    - Heap is remaining memory in computer, malloc gets memory, free frees memory
+    - Easy rule, if variable didn't come from malloc, it came from stack, which is easy to free after function call is over
+    - Stack variables added as params and locals

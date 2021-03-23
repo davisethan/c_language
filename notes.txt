@@ -101,3 +101,5 @@ Ex 22 Stack, Scope, and Globals
         which makes debuggin harder,
         so don't define variables in blocks
     - When in doubt, use the heap and don't rely on stack details
+
+Ex 23 Duff's Device

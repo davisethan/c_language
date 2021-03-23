@@ -15,3 +15,4 @@ clean:
 	rm -f ex16
 	rm -f ex17
 	rm -f db.dat
+	rm -f ex18

@@ -78,3 +78,10 @@ Ex 17 Heap and Stack Memory Allocation
     - Heap is remaining memory in computer, malloc gets memory, free frees memory
     - Easy rule, if variable didn't come from malloc, it came from stack, which is easy to free after function call is over
     - Stack variables added as params and locals
+
+Ex 18 Pointers to Functions
+    - Functions are just pointers to blocks of code
+    - Useful for callbacks
+    - e.g. int (*POINTER_NAME)(int a, int b). int callme(int a, int b) becomes int (*compare_cb)(int a, int b)
+    - Call function pointer just as function call
+    - typedef lets complex data types be renamed

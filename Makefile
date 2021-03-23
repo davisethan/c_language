@@ -16,3 +16,5 @@ clean:
 	rm -f ex17
 	rm -f db.dat
 	rm -f ex18
+	rm -f *.o
+	rm -f ex22_main

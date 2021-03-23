@@ -85,3 +85,19 @@ Ex 18 Pointers to Functions
     - e.g. int (*POINTER_NAME)(int a, int b). int callme(int a, int b) becomes int (*compare_cb)(int a, int b)
     - Call function pointer just as function call
     - typedef lets complex data types be renamed
+
+Ex 21 Advanced Data Types and Control Flow
+
+Ex 22 Stack, Scope, and Globals
+    - extern: Variable exists, but in external location. Here, ex22.c has variable THE_SIZE accessed in ex22_main.c
+    - static (file): Variable only used in this .c file. static keyword at file level different than in other places
+    - static (function): Variable only used in this function. Rarely used in modern C because hard to use with threads
+    - Variables made in blocks only exist in those blocks. But don't make new variables in blocks because...
+    - (Build manually)
+        $ cc -Wall -g -c -o ex22.o ex22.c
+        $ cc -Wall -g ex22_main.c ex22.o -o ex22_main
+        $ ./ex22_main
+    - Variable defined in block is defined in different place in memory
+        which makes debuggin harder,
+        so don't define variables in blocks
+    - When in doubt, use the heap and don't rely on stack details

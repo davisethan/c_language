@@ -18,3 +18,4 @@ clean:
 	rm -f ex18
 	rm -f *.o
 	rm -f ex22_main
+	rm -f ex24
